@@ -15,7 +15,7 @@ main {
   justify-content: center;
   flex-direction: column;
   padding: 12px;
-  border-radius: 5px;
+  border-radius: 10px;
   background-color: hsl(0, 0%, 100%);
   max-width: 250px;
   height: fit-content;
@@ -28,10 +28,12 @@ img#qr-code {
 p {
   color: hsl(216, 15%, 48%);
   font-size: 15px;
-  margin-bottom: 0;
+  /* margin-bottom: 0; */
+  text-align: center;
 }
 h1 {
   font-size: 18px;
   color: hsl(218, 44%, 22%);
   margin-bottom: 0;
+  text-align: center;
 }
